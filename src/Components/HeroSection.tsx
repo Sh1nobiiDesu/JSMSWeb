@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./HeroSection.css";
 import "../App.css";
 import { useState } from "react";

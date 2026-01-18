@@ -1,16 +1,15 @@
 {
   "name": "jsmswebsite",
-  "homepage": "https://Sh1nobiiDesu.github.io/JSMSWebsite.github.io",
+  "homepage": "https://marktangon.dev/JSMSWebsite.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
